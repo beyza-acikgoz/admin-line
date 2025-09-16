@@ -1,9 +1,9 @@
-Admin Line
+# Admin Line
 
 Admin Line, kullanıcı yönetimi için geliştirilmiş bir Next.js tabanlı admin panel uygulamasıdır.
 Uygulama PostgreSQL + Prisma entegrasyonu ile kullanıcıları veritabanından çekmekte ve CRUD işlemleri (ekle, sil, güncelle, listele) yapabilmektedir.
 
-🚀 Özellikler
+# 🚀 Özellikler
 
 Kullanıcı listeleme (PostgreSQL üzerinden)
 
@@ -15,23 +15,24 @@ Responsive ve modern UI (MUI + Tailwind CSS)
 
 Kolay konfigüre edilebilir proje yapısı
 
-🛠️ Kullanılan Teknolojiler
+# 🛠️ Kullanılan Teknolojiler
 
-Next.js (App Router)
+## Next.js (App Router)
 
-React
+## React
 
-TypeScript
+## TypeScript
 
-Prisma ORM
+## Prisma ORM
 
-PostgreSQL
+## PostgreSQL
 
-MUI (Material UI)
+## MUI (Material UI)
 
-Tailwind CSS
+## Tailwind CSS
 
-📂 Proje Yapısı
+# 📂 Proje Yapısı
+
 admin-line/
 ├── public/ # Statik dosyalar
 ├── src/
@@ -52,30 +53,30 @@ admin-line/
 ├── tsconfig.json
 └── README.md
 
-⚙️ Kurulum
+# ⚙️ Kurulum
 
-Repoyu klonla:
+## Repoyu klonla:
 
 git clone https://github.com/beyza-acikgoz/admin-line.git
 cd admin-line
 
-Bağımlılıkları yükle:
+## Bağımlılıkları yükle:
 
 npm install
 
-.env dosyasına PostgreSQL bağlantı bilgisini ekle:
+## .env dosyasına PostgreSQL bağlantı bilgisini ekle:
 
 DATABASE_URL="postgresql://username:password@localhost:5432/adminlinedb"
 
-Prisma migration çalıştır:
+## Prisma migration çalıştır:
 
 npx prisma migrate dev
 
-Uygulamayı çalıştır:
+## Uygulamayı çalıştır:
 
 npm run dev
 
-🔑 Kullanım
+# 🔑 Kullanım
 
 http://localhost:3100 adresinden erişebilirsin.
 
@@ -83,7 +84,7 @@ Admin panelde kullanıcıları listeleyebilir, ekleyebilir, güncelleyebilir ve 
 
 Roller, kullanıcıya bağlı olarak görüntülenmektedir.
 
-📌 Yol Haritası
+# 📌 Yol Haritası
 
 Kullanıcı CRUD işlemleri (UI)
 
@@ -93,6 +94,6 @@ Rol bazlı yetkilendirme geliştirmeleri
 
 Testlerin eklenmesi
 
-🤝 Katkı
+# 🤝 Katkı
 
 Pull request ve issue’lar kabul edilmektedir.
