@@ -1,6 +1,3 @@
-Harika! O zaman README’yi **profesyonel GitHub görünümü** için güncelleyelim: badge’ler, proje durumu ve örnek ekran görselleri ekleyelim. Aşağıdaki sürümü kullanabilirsin:
-
-```markdown
 # Admin Line
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -37,6 +34,7 @@ Uygulama, **PostgreSQL + Prisma** entegrasyonu ile kullanıcıları veritabanın
 ---
 
 ## 📂 Proje Yapısı
+
 ```
 
 admin-line/
@@ -59,7 +57,7 @@ admin-line/
 ├── tsconfig.json
 └── README.md
 
-````
+```
 
 ---
 
@@ -79,10 +77,11 @@ admin-line/
 ## ⚙️ Kurulum
 
 ### 1. Repoyu klonla
+
 ```bash
 git clone https://github.com/beyza-acikgoz/admin-line.git
 cd admin-line
-````
+```
 
 ### 2. Bağımlılıkları yükle
 
