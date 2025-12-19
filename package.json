@@ -3,10 +3,10 @@
   "version": "1.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3100",
+    "dev": "next dev --port 3200",
     "build": "next build",
-    "start": "next start -p 3100",
-    "export": "next export -p 3100",
+    "start": "next start -p 3200",
+    "export": "next export -p 3200",
     "lint": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "build:icons": "tsc -b src/iconify-bundle && node src/iconify-bundle/bundle-icons-react.js"

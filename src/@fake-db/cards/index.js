@@ -96,35 +96,32 @@ const cardStatsData = {
   statsHorizontalWithDetails: [
     {
       stats: '21,459',
-      title: 'Session',
+      title: 'Oturum',
       trendDiff: '+29',
       icon: 'tabler:user',
-      subtitle: 'Total Users'
+      subtitle: 'Toplam Kullanıcı'
     },
     {
       stats: '4,567',
-      trendDiff: '+18',
-      title: 'Paid Users',
+      title: 'Test Mühendisi Kullanıcı',
       avatarColor: 'error',
       icon: 'tabler:user-plus',
-      subtitle: 'Last week analytics'
+      subtitle: 'Geçen Haftanın Analizi'
     },
     {
       stats: '19,860',
-      trendDiff: '-14',
       trend: 'negative',
-      title: 'Active Users',
+      title: 'Kalite Mühendisi Kullanıcı',
       avatarColor: 'success',
       icon: 'tabler:user-check',
-      subtitle: 'Last week analytics'
+      subtitle: 'Geçen Haftanın Analizi'
     },
     {
       stats: '237',
-      trendDiff: '+42',
-      title: 'Pending Users',
+      title: 'Operatör Kullanıcı',
       avatarColor: 'warning',
       icon: 'tabler:user-exclamation',
-      subtitle: 'Last week analytics'
+      subtitle: 'Geçen Haftanın Analizi'
     }
   ]
 }

@@ -252,7 +252,6 @@ const UserList = ({ apiData }) => {
   const [role, setRole] = useState('')
   const [plan, setPlan] = useState('')
   const [value, setValue] = useState('')
-  const [status, setStatus] = useState('')
   const [addUserOpen, setAddUserOpen] = useState(false)
   const [paginationModel, setPaginationModel] = useState({ page: 0, pageSize: 10 })
 
@@ -282,9 +281,6 @@ const UserList = ({ apiData }) => {
     setPlan(e.target.value)
   }, [])
 
-  const handleStatusChange = useCallback(e => {
-    setStatus(e.target.value)
-  }, [])
   const toggleAddUserDrawer = () => setAddUserOpen(!addUserOpen)
 
   return (
@@ -307,7 +303,7 @@ const UserList = ({ apiData }) => {
           <CardHeader title='Ara..' />
           <CardContent>
             <Grid container spacing={6}>
-              <Grid item sm={4} xs={12}>
+              <Grid item sm={6} xs={12}>
                 <CustomTextField
                   select
                   fullWidth
@@ -330,7 +326,7 @@ const UserList = ({ apiData }) => {
                   <MenuItem value='subscriber'>Subscriber</MenuItem>
                 </CustomTextField>
               </Grid>
-              <Grid item sm={4} xs={12}>
+              <Grid item sm={6} xs={12}>
                 <CustomTextField
                   select
                   fullWidth
@@ -350,7 +346,7 @@ const UserList = ({ apiData }) => {
                   <MenuItem value='team'>Team</MenuItem>
                 </CustomTextField>
               </Grid>
-              <Grid item sm={4} xs={12}>
+              {/* <Grid item sm={4} xs={12}>
                 <CustomTextField
                   select
                   fullWidth
@@ -366,7 +362,7 @@ const UserList = ({ apiData }) => {
                   <MenuItem value='active'>Active</MenuItem>
                   <MenuItem value='inactive'>Inactive</MenuItem>
                 </CustomTextField>
-              </Grid>
+              </Grid> */}
             </Grid>
           </CardContent>
           <Divider sx={{ m: '0 !important' }} />
